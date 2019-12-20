@@ -23,7 +23,6 @@ def has_birthday_today(data_oject):
 
 def birthday_message(data_object):
     birthday_list = has_birthday_today(data_object)
-
     for person_id in birthday_list:
         subject = "subject: Happy Birthday"
         message = "Happy Birthday, dear {}".format(data_object["first_name"][person_id])
